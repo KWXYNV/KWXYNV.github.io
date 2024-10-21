@@ -1,33 +1,35 @@
 body {
-            margin: 0;
-            padding: 0;
-            color: #333;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            font-family: 'Work Sans', sans-serif;
-        }
-       
-        header {
-            text-align: Left;
-        }
-        header a {
-            text-decoration: none;
-            color: #333;
-            margin-left: 20px;
-            font-weight: lighter;
-        }
-       
-        .values {
-            display: flex;
-            justify-content: space-between;
-            font-weight: lighter; /* this changes all words*/
-        }
-        .values div {
-            width: 30%;
-        }
-        footer {
-          
-            text-align: center;
-            margin-top: 50px;
-            font-size: 14px;
-        }
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  text-align: Left;
+  margin-left: 250px;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+  font-weight: lighter;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter; /* this changes all words*/
+}
+.values div {
+  width: 30%;
+  margin-left: 160px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
